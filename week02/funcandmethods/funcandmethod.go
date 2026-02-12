@@ -20,6 +20,10 @@ func foo(a int) (b int, err bool) {
 
 type S string
 
+type Pair struct {
+	first, second int
+}
+
 // upper is a method with a receiver of type S.
 // It converts the string to uppercase and returns it.
 func (msg S) upper() string {
@@ -44,4 +48,5 @@ func main() {
 	a := S("GO Pokes")
 	s := a.upper() // Call the upper method on type S
 	print(s)
+
 }
