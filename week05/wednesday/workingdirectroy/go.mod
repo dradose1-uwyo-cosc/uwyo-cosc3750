@@ -1,0 +1,3 @@
+module workingdirectory
+
+go 1.25.3

@@ -50,7 +50,7 @@ func init() {
 				return false
 			}
 			if strings.ToLower(args[0]) == "stop" {
-				Reset.ColorStart(w)
+				Reset.ColorEnd(w)
 				return true
 			} else {
 
